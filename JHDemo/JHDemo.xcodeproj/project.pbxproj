@@ -134,7 +134,6 @@
 				119F6AFB894879394FF5D726 /* Pods-JHDemo.debug.xcconfig */,
 				9F35ECE05F8824144502C174 /* Pods-JHDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -400,9 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5CVH7CMSG6;
+				DEVELOPMENT_TEAM = VW4HM9QZFV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JHDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "智慧园区";
@@ -417,8 +417,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eastsoft.www.JHDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = www.eastsoft.com.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ESTest_AppStore;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -430,9 +431,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5CVH7CMSG6;
+				DEVELOPMENT_TEAM = VW4HM9QZFV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JHDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "智慧园区";
@@ -447,8 +449,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eastsoft.www.JHDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = www.eastsoft.com.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ESTest_dev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

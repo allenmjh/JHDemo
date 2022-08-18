@@ -12,8 +12,6 @@
 
 @interface WelcomeViewController ()
 
-@property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
-
 @property (nonatomic, strong) UIView *circularView;
 
 @end
