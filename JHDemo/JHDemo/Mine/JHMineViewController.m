@@ -1,24 +1,22 @@
 //
-//  LoginViewController.m
+//  JHMineViewController.m
 //  JHDemo
 //
-//  Created by eastsoft_mjh on 2022/7/22.
+//  Created by eastsoft_mjh on 2022/8/18.
 //
 
-#import "LoginViewController.h"
+#import "JHMineViewController.h"
 
-@interface LoginViewController ()
+@interface JHMineViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation JHMineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"我的";
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
-    
-    [[NSUserDefaults standardUserDefaults] setObject:@{@"username": @"name"} forKey:@"loginInfo"];
 }
 
 /*

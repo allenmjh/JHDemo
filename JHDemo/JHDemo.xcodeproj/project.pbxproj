@@ -8,23 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		3EBF1DC6DBE4D2976EEF04FD /* Pods_JHDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9662E367D1F7565FCF7960 /* Pods_JHDemo.framework */; };
+		8F01620028AE23FC003817E7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0161FF28AE23FC003817E7 /* BaseViewController.m */; };
+		8F01620328AE247F003817E7 /* JHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F01620228AE247F003817E7 /* JHHomeViewController.m */; };
+		8F01620728AE24C2003817E7 /* JHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F01620628AE24C2003817E7 /* JHMineViewController.m */; };
+		8F01620A28AF16F3003817E7 /* JHVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F01620928AF16F3003817E7 /* JHVideoViewController.m */; };
 		8F742E8A288A78CF00597B7D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F742E88288A78CF00597B7D /* LoginViewController.m */; };
-		8F742E93288A7DB500597B7D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F742E92288A7DB500597B7D /* MineViewController.m */; };
 		8FE32BE528853427005735EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE32BE428853427005735EA /* AppDelegate.m */; };
 		8FE32BEE28853427005735EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE32BEC28853427005735EA /* Main.storyboard */; };
 		8FE32BF02885342B005735EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE32BEF2885342B005735EA /* Assets.xcassets */; };
 		8FE32BF32885342B005735EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE32BF12885342B005735EA /* LaunchScreen.storyboard */; };
 		8FE32BF62885342B005735EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE32BF52885342B005735EA /* main.m */; };
-		8FE32BFE2885412E005735EA /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE32BFD2885412E005735EA /* WelcomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		119F6AFB894879394FF5D726 /* Pods-JHDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHDemo.debug.xcconfig"; path = "Target Support Files/Pods-JHDemo/Pods-JHDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1F9662E367D1F7565FCF7960 /* Pods_JHDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0161FE28AE23FC003817E7 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8F0161FF28AE23FC003817E7 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8F01620128AE247F003817E7 /* JHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHHomeViewController.h; sourceTree = "<group>"; };
+		8F01620228AE247F003817E7 /* JHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHHomeViewController.m; sourceTree = "<group>"; };
+		8F01620528AE24C2003817E7 /* JHMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHMineViewController.h; sourceTree = "<group>"; };
+		8F01620628AE24C2003817E7 /* JHMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHMineViewController.m; sourceTree = "<group>"; };
+		8F01620828AF16F3003817E7 /* JHVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHVideoViewController.h; sourceTree = "<group>"; };
+		8F01620928AF16F3003817E7 /* JHVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHVideoViewController.m; sourceTree = "<group>"; };
 		8F742E88288A78CF00597B7D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8F742E89288A78CF00597B7D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		8F742E91288A7DB500597B7D /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		8F742E92288A7DB500597B7D /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		8FE32BE028853427005735EA /* JHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE32BE328853427005735EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FE32BE428853427005735EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,8 +41,6 @@
 		8FE32BF22885342B005735EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FE32BF42885342B005735EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FE32BF52885342B005735EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8FE32BFC2885412E005735EA /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
-		8FE32BFD2885412E005735EA /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		9F35ECE05F8824144502C174 /* Pods-JHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHDemo.release.xcconfig"; path = "Target Support Files/Pods-JHDemo/Pods-JHDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,11 +64,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8F742E86288A78C600597B7D /* MIne */ = {
+		8F0161FC28AE23D4003817E7 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8F0161FE28AE23FC003817E7 /* BaseViewController.h */,
+				8F0161FF28AE23FC003817E7 /* BaseViewController.m */,
 			);
-			path = MIne;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8F01620428AE24AD003817E7 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8F01620528AE24C2003817E7 /* JHMineViewController.h */,
+				8F01620628AE24C2003817E7 /* JHMineViewController.m */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		8F742E87288A78CF00597B7D /* Login */ = {
@@ -77,17 +94,12 @@
 		8F742E8F288A79EE00597B7D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8F01620128AE247F003817E7 /* JHHomeViewController.h */,
+				8F01620228AE247F003817E7 /* JHHomeViewController.m */,
+				8F01620828AF16F3003817E7 /* JHVideoViewController.h */,
+				8F01620928AF16F3003817E7 /* JHVideoViewController.m */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		8F742E90288A79EE00597B7D /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				8F742E91288A7DB500597B7D /* MineViewController.h */,
-				8F742E92288A7DB500597B7D /* MineViewController.m */,
-			);
-			path = Mine;
 			sourceTree = "<group>";
 		};
 		8FE32BD728853427005735EA = {
@@ -111,14 +123,12 @@
 		8FE32BE228853427005735EA /* JHDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8F01620428AE24AD003817E7 /* Mine */,
+				8F0161FC28AE23D4003817E7 /* Base */,
 				8F742E8F288A79EE00597B7D /* Home */,
-				8F742E90288A79EE00597B7D /* Mine */,
 				8F742E87288A78CF00597B7D /* Login */,
-				8F742E86288A78C600597B7D /* MIne */,
 				8FE32BE328853427005735EA /* AppDelegate.h */,
 				8FE32BE428853427005735EA /* AppDelegate.m */,
-				8FE32BFC2885412E005735EA /* WelcomeViewController.h */,
-				8FE32BFD2885412E005735EA /* WelcomeViewController.m */,
 				8FE32BEC28853427005735EA /* Main.storyboard */,
 				8FE32BEF2885342B005735EA /* Assets.xcassets */,
 				8FE32BF12885342B005735EA /* LaunchScreen.storyboard */,
@@ -166,6 +176,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = JH;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					8FE32BDF28853427005735EA = {
@@ -252,10 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F742E8A288A78CF00597B7D /* LoginViewController.m in Sources */,
+				8F01620728AE24C2003817E7 /* JHMineViewController.m in Sources */,
+				8F01620328AE247F003817E7 /* JHHomeViewController.m in Sources */,
+				8F01620028AE23FC003817E7 /* BaseViewController.m in Sources */,
+				8F01620A28AF16F3003817E7 /* JHVideoViewController.m in Sources */,
 				8FE32BE528853427005735EA /* AppDelegate.m in Sources */,
-				8F742E93288A7DB500597B7D /* MineViewController.m in Sources */,
 				8FE32BF62885342B005735EA /* main.m in Sources */,
-				8FE32BFE2885412E005735EA /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,17 +1,17 @@
 //
-//  MineViewController.m
+//  JHVideoViewController.m
 //  JHDemo
 //
-//  Created by eastsoft_mjh on 2022/7/22.
+//  Created by eastsoft_mjh on 2022/8/19.
 //
 
-#import "MineViewController.h"
+#import "JHVideoViewController.h"
 
-@interface MineViewController ()
+@interface JHVideoViewController ()
 
 @end
 
-@implementation MineViewController
+@implementation JHVideoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

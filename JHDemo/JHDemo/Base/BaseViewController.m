@@ -1,24 +1,22 @@
 //
-//  LoginViewController.m
+//  BaseViewController.m
 //  JHDemo
 //
-//  Created by eastsoft_mjh on 2022/7/22.
+//  Created by eastsoft_mjh on 2022/8/18.
 //
 
-#import "LoginViewController.h"
+#import "BaseViewController.h"
 
-@interface LoginViewController ()
+@interface BaseViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation BaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
-    
-    [[NSUserDefaults standardUserDefaults] setObject:@{@"username": @"name"} forKey:@"loginInfo"];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 /*
